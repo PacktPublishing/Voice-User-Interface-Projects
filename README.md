@@ -10,7 +10,7 @@ This is the code repository for [Voice User Interface Projects](https://www.pack
 From touchscreen and mouse-click, we are moving to voice- and conversation-based user interfaces. By adopting Voice User Interfaces (VUIs), you can create a more compelling and engaging experience for your users. Voice User Interface Projects teaches you how to develop voice-enabled applications for desktop, mobile, and Internet of Things (IoT) devices.
 This book explains in detail VUI and its importance, basic design principles of VUI, fundamentals of conversation, and the different voice-enabled applications available in the market. You will learn how to build your first voice-enabled application by utilizing DialogFlow and Alexa’s natural language processing (NLP) platform. Once you are comfortable with building voice-enabled applications, you will understand how to dynamically process and respond to the questions by using NodeJS server deployed to the cloud. You will then move on to securing NodeJS RESTful API for DialogFlow and Alexa webhooks, creating unit tests and building voice-enabled podcasts for cars. Last but not the least you will discover advanced topics such as handling sessions, creating custom intents, and extending built-in intents in order to build conversational VUIs that will help engage the users.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features:
 * Understand NLP platforms with machine learning
 * Exploit best practices and user experiences in creating VUI
 * Build voice-enabled chatbots
