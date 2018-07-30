@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.henry.mypodcast" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
+	<uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc" />
+	</application>
+</manifest>

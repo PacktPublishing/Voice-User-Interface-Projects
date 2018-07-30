@@ -1,0 +1,10 @@
+{
+  "name": "fortunecookie",
+  "description": "",
+  "version": "0.1.0",
+  "author": "Henry Lee <henry@henrylee.link>",
+  "dependencies": {
+    "dialogflow": "^0.1.0"
+  },
+  "script": "./unittest.js"
+}

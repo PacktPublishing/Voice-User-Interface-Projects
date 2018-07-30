@@ -1,0 +1,13 @@
+{
+  "name": "fortunecookie",
+  "description": "",
+  "version": "0.1.0",
+  "author": "Henry Lee <henry@henrylee.link>",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "documentdb": "^1.14.2",
+    "express": "^4.0.0",
+    "jsonpath": "^0.2.0"
+  },
+  "script": "./server.js"
+}

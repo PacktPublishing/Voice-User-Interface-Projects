@@ -1,0 +1,13 @@
+{
+  "name": "cookingapp",
+  "description": "endpoint to handle henry's kitchen alexa skill requests",
+  "version": "0.1.0",
+  "author": "Henry Lee <henry@henrylee.link>",
+  "dependencies": {
+    "alexa-verifier-middleware": "^1.0.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "unirest": "^0.5.1"
+  },
+  "script": "./server.js"
+}

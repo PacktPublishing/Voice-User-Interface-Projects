@@ -1,0 +1,162 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "henry's kitchen",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "I need help",
+                        "help me",
+                        "how do i use this"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetCookingIntent",
+                    "slots": [
+                        {
+                            "name": "DietTypes",
+                            "type": "DietTypes",
+                            "samples": [
+                                "yes I am {DietTypes}",
+                                "{DietTypes} ",
+                                "I am {DietTypes} "
+                            ]
+                        },
+                        {
+                            "name": "Foods",
+                            "type": "Foods",
+                            "samples": [
+                                "I want to make {Foods}",
+                                "I want to cook {Foods}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "I want to cook {Foods}",
+                        "I want to make {Foods}",
+                        "I want to make {DietTypes} {Foods}",
+                        "I want to cook {DietTypes} {Foods}"
+                    ]
+                },
+                {
+                    "name": "GetMoreRecipesIntent",
+                    "slots": [],
+                    "samples": [
+                        "i want more recipes",
+                        "get more recipes"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Foods",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Burger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pizza"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fish"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "DietTypes",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "vegan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vegetarian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pescetarian"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "GetCookingIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "DietTypes",
+                            "type": "DietTypes",
+                            "confirmationRequired": true,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "confirmation": "Confirm.Slot.1413934334256.883465971876",
+                                "elicitation": "Elicit.Slot.1413934334256.883465971876"
+                            }
+                        },
+                        {
+                            "name": "Foods",
+                            "type": "Foods",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.227037671965.428025076710"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1413934334256.883465971876",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "do you have dietary requirement like vegan, vegetarian or pescetarian?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.1413934334256.883465971876",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "You said you are {DietTypes} ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.227037671965.428025076710",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What kind of food would you like to cook?"
+                    }
+                ]
+            }
+        ]
+    }
+}

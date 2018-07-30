@@ -1,0 +1,90 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "henry's kitchen",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "Hi"
+                    ]
+                },
+                {
+                    "name": "GetCookingIntent",
+                    "slots": [
+                        {
+                            "name": "Foods",
+                            "type": "Foods"
+                        },
+                        {
+                            "name": "DietTypes",
+                            "type": "DietTypes"
+                        }
+                    ],
+                    "samples": [
+                        "I want to cook {DietTypes} {Foods}",
+                        "I want to make {DietTypes} {Foods}",
+                        "I want to make {Foods}",
+                        "I want to cook {Foods}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Foods",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Fish"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pizza"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Burger"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "DietTypes",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pescetarian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vegetarian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vegan"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
