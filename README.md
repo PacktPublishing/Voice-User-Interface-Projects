@@ -60,7 +60,7 @@ With the following software and hardware list you can run all code files present
 
 * Alexa Skills Projects [[Packt]](https://www.packtpub.com/hardware-and-creative/alexa-skills-projects?utm_source=github&utm_medium=repository&utm_campaign=9781788997256) [[Amazon]](https://www.amazon.com/dp/1788997255)
 
-## Get to Know the Author(s)
+## Get to Know the Author
 **Henry Lee** has over 18 years of experience in software engineering. His passion for software engineering has led him to work at various start-ups. Currently, he works as the principal architect responsible for the R&D and the digital strategies. In his spare time, He loves to travel and snowboard, and enjoys discussing the latest technology trends over a cigar! Also, he authored three books at Apress on mobile development.
 
 ### Suggestions and Feedback
