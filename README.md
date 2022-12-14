@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781788473354)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # Voice User Interface Projects
 
 <a href="https://www.packtpub.com/web-development/voice-user-interface-projects?utm_source=github&utm_medium=repository&utm_campaign=9781788473354"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B08554_MockupCoverNew.png" alt="Book Name" height="256px" align="right"></a>
